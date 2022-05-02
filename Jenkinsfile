@@ -5,7 +5,7 @@ node {
         checkout scm
     }
 
-    stage('Build image') {
+    stage('Build imageee') {
         app = docker.build("hayhovsepyan/jenkinstest")
     }
 
